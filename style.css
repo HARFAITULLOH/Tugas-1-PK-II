@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: rgb(255, 216, 142);
 }
 
 .container {
@@ -40,24 +40,116 @@ body {
 }
 
 /* MAIN CSS */
-.main {
-  width: 900px;
-  height: 450px;
-  background-color: green;
+.content {
+  background-color: rgba(100, 251, 50, 0.682);
 }
 
-.main-list1 h1 {
+.content h1.information {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content p.information {
+  background-color: rgb(0, 157, 0);
+  color: white;
+  font-size: 15px;
+  padding: 15px 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.content .studentInfo {
+  width: 60%;
+  padding: 0 50px 30px;
+  box-sizing: border-box;
+  border-right: 1px dotted black;
+  float: left;
+}
+
+.content .studentInfo h1 {
+  color: black;
   font-size: 20px;
-  padding-left: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+  padding: 20px 0 5px;
 }
 
-.main-list1 .selected {
+.content .studentInfo li {
+  margin-left: 30px;
+}
+
+.content .studentInfo p,
+.content .studentInfo li {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.content .studentInfo .redList {
   color: red;
 }
 
-.main-list2 h1 {
-  font-size: 20px;
-  padding-left: 30px;
+.content .loginForm {
+  width: 40%;
+  float: right;
+  padding: 50px 0 0;
+}
+
+.content .loginForm form {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.content .loginForm label {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+
+.content .loginForm .question {
+  margin: 10px 0;
+  background-color: rgba(0, 128, 0, 0.533);
+  padding: 7px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 700;
+}
+
+.content .loginForm input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 20px;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.content .loginForm input.answer {
+  background-color: transparent;
+  border-bottom: 1px solid green;
+  text-align: center;
+}
+
+.content .loginForm input.btn {
+  margin: 15px 0 20px;
+}
+
+.content .loginForm p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.content .clearFloat {
+  clear: both;
 }
 
 /* FOOTER CSS */

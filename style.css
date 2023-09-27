@@ -46,6 +46,20 @@ body {
   background-color: green;
 }
 
+.main-list1 h1 {
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.main-list1 .selected {
+  color: red;
+}
+
+.main-list2 h1 {
+  font-size: 20px;
+  padding-left: 30px;
+}
+
 /* FOOTER CSS */
 .footer p {
   font-size: 15px;
